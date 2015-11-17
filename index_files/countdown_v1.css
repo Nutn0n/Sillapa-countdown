@@ -1,0 +1,155 @@
+#logo{
+text-align:center;
+margin-left:auto; 
+margin-right:auto;
+margin-bottom:10px;
+margin-top:40px;
+}
+#CountdownPlace{
+text-align:center;
+margin-left:auto; 
+margin-right:auto;
+width:700px;
+margin-bottom:15px;
+}
+#mainCountdown{
+font-family:Courier New, monospace;
+font-size:36px;
+font-weight:bold;
+text-align:center;
+margin-left:auto; 
+margin-right:auto;
+border-spacing:0px;
+}
+.settingButton{
+border: 2px solid gray;
+margin-left:20px;
+margin-right:20px;
+vertical-align:middle;
+width:150px;
+background:gray;
+color:white;
+font-family:Verdanna, sans-serif;
+font-weight:bold;
+font-size:16px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+.settingButton:hover{
+color:black;
+}
+.upButton{
+vertical-align:middle;
+cursor: pointer;
+border:0;
+background-image: url(../images/button-up.png);
+background-repeat: no-repeat;
+background-position: center;
+width:25px;
+height:23px;
+}
+.upButton:hover{
+background-image: url(../images/button-up-hover.png);
+}
+.downButton{
+text-align:center;
+cursor: pointer;
+border:0;
+background-image: url(../images/button-down.png);
+background-repeat: no-repeat;
+background-position: center;
+width:25px;
+height:23px;
+}
+.downButton:hover{
+background-image: url(../images/button-down-hover.png);
+}
+.borderCountdownCenter{
+border-top-width:2px;
+border-top-style:solid;
+border-top-color:gray;
+border-bottom-width:2px;
+border-bottom-style:solid;
+border-bottom-color:gray;
+background-color:#f0f0f0
+}
+.borderCountdownLeft{
+border-top-width:2px;
+border-top-style:solid;
+border-top-color:gray;
+border-bottom-width:2px;
+border-bottom-style:solid;
+border-bottom-color:gray;
+border-left-width:2px;
+border-left-style:solid;
+border-left-color:gray;
+background-color:#f0f0f0;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+-moz-border-radius: 10px 0 0 10px;
+-webkit-border-radius: 10px 0 0 10px;
+}
+.borderCountdownRight{
+border-top-width:2px;
+border-top-style:solid;
+border-top-color:gray;
+border-bottom-width:2px;
+border-bottom-style:solid;
+border-bottom-color:gray;
+border-right-width:2px;
+border-right-style:solid;
+border-right-color:gray;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+-moz-border-radius: 0 10px 10px 0;
+-webkit-border-radius: 0 10px 10px 0;
+background-color:#f0f0f0;
+}
+.SelectorMenu{
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+font-family:Courier New, monospace;
+font-size:16px;
+font-weight:bold;
+display:none;
+text-align:left;
+margin:0;
+padding:0;
+background:gray;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+.SelectorButton{
+float:none;
+list-style:none;
+color:white;
+cursor:pointer;
+width:130px;
+padding-top:4px;
+padding-bottom:4px;
+padding-left:1px;
+padding-right:1px;
+font-family:Verdanna, sans-serif;
+font-weight:bold;
+}
+.SelectorButton:hover{
+color:black;
+}
+#showMenuButton{
+font-family:Courier New, monospace;
+vertical-align:middle;
+font-size:16px;
+cursor: pointer;
+color:white;
+border:1px solid white;
+background:gray;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+#showMenuButton:hover{
+background:#f0f0f0;
+color:#727272;
+}

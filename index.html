@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>ศิลปะหัถกรรมระดับภาค ครั้งที่ 64</title>
+<meta name="keywords" content="countdown, alarm">
+<meta name="description" content="A simple and free countdown with alarm function.">
+<link rel="stylesheet" href="./index_files/common_v1.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./index_files/countdown_v1.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./index_files/jquery-ui-1.7.2.custom.css" type="text/css" media="screen">
+<link rel="SHORTCUT ICON" href="http://www.estopwatch.net/favicon.ico">
+<script async="" type="text/javascript" src="./index_files/ca-pub-5356142669612762.js"></script><script type="text/javascript" src="./index_files/jquery.min.js"></script>
+<script type="text/javascript" src="./index_files/jquery-ui.min.js"></script>
+<script type="text/javascript" src="./index_files/soundmanager2-nodebug-jsmin.js"></script>
+<script type="text/javascript" src="./index_files/jquery.keystrokes.min2.js"></script>
+<script type="text/javascript" src="./index_files/countdown_v1.js"></script>
+<script type="text/javascript">soundManager.url = 'application/soundmanager-v297a-20111030/';</script>
+<link rel="stylesheet" type="text/css" href="./index_files/widget007.old.css" media="all"></head>
+<body>
+
+
+
+
+	</div>
+	<div id="logo"><img src="./index_files/logo-countdown.png" width="598" height="" alt="countdown logo"></div>
+	<div id="sharing">
+		<a class="addthis_button" href="http://www.addthis.com/bookmark.php"><img src="./index_files/addthis-red.gif" width="16" height="16" border="0" alt="AddThis sharing button"></a>
+	</div> <br/>
+	<div id="CountdownPlace">
+		<table id="mainCountdown" cellspacing="0">
+		<tbody>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><button id="UHButton" class="upButton" onclick="this.blur();"></button></td>
+				<td></td>
+				<td><button id="UMButton" class="upButton" onclick="this.blur();"></button></td>
+				<td></td>
+				<td><button id="USButton" class="upButton" onclick="this.blur();"></button></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+		
+				<td class="borderCountdownLeft">&nbsp;&nbsp;&nbsp;</td>
+				<td id="Hour" class="borderCountdownCenter">00</td>
+				<td class="borderCountdownCenter">:</td>
+				<td id="Min" class="borderCountdownCenter">05</td>
+				<td class="borderCountdownCenter">:</td>
+				<td id="Sec" class="borderCountdownCenter">00</td>
+				<td class="borderCountdownRight">&nbsp;&nbsp;&nbsp;</td>
+						</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><button id="DHButton" class="downButton" onclick="this.blur();"></button></td>
+				<td></td>
+				<td><button id="DMButton" class="downButton" onclick="this.blur();"></button></td>
+				<td></td>
+				<td><button id="DSButton" class="downButton" onclick="this.blur();"></button></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+		</table>
+	</div>
+	<div id="mainFunction">
+		<button type="button" id="startButton" class="c" onclick="this.blur();">Start</button>
+		<button type="button" id="pauseButton" class="mainButton" onclick="this.blur();">Pause</button>
+		<button type="button" id="continueButton" class="mainButton green" onclick="this.blur();">Continue</button>
+		<button type="button" id="stopButton" class="mainButton red" onclick="this.blur();">Stop</button>
+	</div>
+			
+            
+            
+		</div>
+	</div>
+		
+    
+	<div id="popupAbout" class="popup">
+		<a id="popupAboutClose" class="popupClose">x</a>
+		<h1>About</h1>
+		<div id="abouttabs" class="tabs ui-tabs ui-widget ui-widget-content ui-corner-all">
+			<ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+				<li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="http://www.estopwatch.net/countdown.html#tabs-countdown">Countdown</a></li>
+				<li class="ui-state-default ui-corner-top"><a href="http://www.estopwatch.net/countdown.html#tabs-versions">Versions</a></li>
+				<li class="ui-state-default ui-corner-top"><a href="http://www.estopwatch.net/countdown.html#tabs-contact">Contact</a></li>
+			</ul>
+			<div id="tabs-countdown" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+		      		<p><em>eStopwatch.net</em> gives you a simple and free countdown. Always available and just a click away!</p>
+				<p>
+					To start instantly, the countdown reloads automatically your last settings.
+					You can access a choice of preset or fine-tune time with a fast selector.
+				</p>
+					Don't forget to choose the best alarm for you, from mute to loud sound.<p></p>
+				<p>
+					Have a good time with your <em>online countdown</em>!
+				</p>
+			</div>
+			<div id="tabs-versions" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+				<dl>
+					<dt>01/01/2010</dt><dd>First English release</dd>
+					<dt>17/01/2010</dt><dd>Automatic session saving</dd>
+					<dt>28/01/2010</dt><dd>New menu design: Add options and versions review</dd>
+					<dt>21/03/2010</dt><dd>Loop mode and keyboard shortcuts</dd>
+					<dt>05/08/2011</dt><dd>New alarm: siren 3x</dd>
+					<dt>13/11/2011</dt><dd>Improve audio compatibility: iPad, iPhone,...</dd>
+				</dl>
+			</div>
+            </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br>
+			<div id="tabs-contact" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+				<img class="floating" src="./index_files/contact-icon.png" width="102" height="102" alt="Contact email icon">
+				<p>Don't hesitate to contact me via email for comments, suggestions, bugs, appreciations... :</p>
+		
+        
+				<br>
+				<br>
+			</div>
+		</div>
+	</div>
+	<div id="popupHelp" class="popup">
+		<a id="popupHelpClose" class="popupClose">x</a>
+		<h1>Help</h1>
+		<div id="helptabs" class="tabs ui-tabs ui-widget ui-widget-content ui-corner-all">
+			<ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+				<li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="http://www.estopwatch.net/countdown.html#tabs-buttons">Buttons</a></li>
+			
+			</ul>
+			<div id="tabs-buttons" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+				<h2>Buttons features description</h2>
+		      		<dl>
+					<dt>Start</dt><dd>Start the countdown</dd>
+					<dt>Pause</dt><dd>Suspend countdown</dd>
+					<dt>Continue</dt><dd>Release the countdown</dd>
+					<dt>Stop</dt><dd>Stop the countdown and reset time to initial value</dd>
+				</dl> 
+				<h2>Keyboard shortcuts</h2>
+		      		<dl>
+					<dt>Space</dt><dd>Start / Pause / Continue</dd>
+					<dt>Backspace</dt><dd>Stop</dd>
+				</dl>
+			</div>
+			<div id="tabs-preset" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+				<p>
+					This menu enables you to choose between lots of presets : one minute, three minute, one hour...
+				</p>
+		
+			</div>
+			<div id="tabs-alarm" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+				<p>
+					This menu gives you the alarm sound choice. Choices are progressives from mute to siren alarm.
+				</p>
+							</div>
+		</div>		
+	</div>
+	<div id="popupOptions" class="popup">
+		<a id="popupOptionsClose" class="popupClose">x</a>
+		<h1>Options</h1>
+		<div id="optionstabs" class="tabs ui-tabs ui-widget ui-widget-content ui-corner-all">
+			<ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+				<li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="http://www.estopwatch.net/countdown.html#tabs-mode">Mode</a></li>
+				<li class="ui-state-default ui-corner-top"><a href="http://www.estopwatch.net/countdown.html#tabs-session">Session</a></li>
+			</ul>
+			<div id="tabs-mode" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+				<p>
+					Besides the standard mode, a <em>loop</em> mode allows the countdown to restart automatically.
+				</p>
+					<ul id="selectorDetailOptions">
+						<li class="selectorDetailOptionsButton"><label for="loopModeOff"><input id="loopModeOff" type="radio" checked="checked" name="mode">Standard mode</label></li>
+						<li class="selectorDetailOptionsButton"><label for="loopModeOn"><input id="loopModeOn" type="radio" name="mode">Loop mode</label></li>
+					</ul>
+			</div>
+			<div id="tabs-session" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+				<p>
+					Your session is automatically saved by the online countdown, that's why even if you close accidentally your webbrowser everything will be back after restarting your browser.
+				</p>
+				<p>
+					However if you need several countdown at the same time, this feature can bother you.
+					Therefore you can stop automatic session saving.
+				</p>
+				<ul class="selectorOptions">
+					<li id="saveSessionButton" class="selectorOptionsButton"><label for="saveSessionCheckbox"><input id="saveSessionCheckbox" type="checkbox" checked="checked">Automatic session saving</label></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="backgroundPopup"></div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="./index_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10712871-7");
+pageTracker._setSessionTimeout("7200");
+pageTracker._setCookieTimeout("86400");
+pageTracker._setCustomVar(1, "build", "33.2us", 3);
+pageTracker._trackPageview();
+pageTracker._trackPageLoadTime();
+} catch(err) {}</script>
+<script type="text/javascript">
+   var addthis_config = {
+      data_ga_tracker: pageTracker,
+      data_use_flash: false
+   };
+</script>
+<script type="text/javascript" src="./index_files/addthis_widget.js"></script><div id="_atssh" style="visibility: hidden; height: 1px; width: 1px; position: absolute; z-index: 100000;"><iframe id="_atssh165" title="AddThis utility frame" src="./index_files/sh180.html" style="height: 1px; width: 1px; position: absolute; z-index: 100000; border: 0px; left: 0px; top: 0px;"></iframe></div><script type="text/javascript" src="./index_files/core165.js"></script>
+
+
+<div id="sm2-container" class="movieContainer " style="z-index: 10000; position: absolute; width: 6px; height: 6px; top: -9999px; left: -9999px;"><embed name="sm2movie" id="sm2movie" src="application/soundmanager-v297a-20111030/soundmanager2.swf" width="auto" height="auto" quality="high" allowscriptaccess="always" bgcolor="#ffffff" pluginspage="www.macromedia.com/go/getflashplayer" title="JS/Flash audio component (SoundManager 2)" type="application/x-shockwave-flash" haspriority="true"></div></body></html>
